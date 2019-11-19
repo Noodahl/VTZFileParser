@@ -1,0 +1,13 @@
+VTZFileParser
+
+This application is the initial steps of an attempt to greatly reduce the amount of time required to manager a VT Pro Project.
+
+The application, does the following:
+
+Given a .vtz file, it reads its contents and creates:
+- A .csv file containing all the defined Analog, Digital and Serial Joins
+- a .dll file which contains an enumeration of the defined Analog, Digital and Serial Joins
+
+The application is written in VS2017, as a result the .dll that it outputs cannot be brought into VS2008.
+
+However, it can be for Virtual Control Applications.

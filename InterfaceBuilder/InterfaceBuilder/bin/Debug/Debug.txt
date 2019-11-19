@@ -1,0 +1,3309 @@
+<Crestron>
+<TargetControl>Project</TargetControl>
+<TargetXSD>Project.xsd</TargetXSD>
+<ControlName>Project</ControlName>
+
+<CategoryName>Project</CategoryName>
+<Thumbnail>Project.bmp</Thumbnail>
+<VersionNumber>2.15.04.00</VersionNumber>
+<PanelType>TS-1542-C</PanelType>
+<ObjectName><![CDATA[Project]]></ObjectName>
+<Description><![CDATA[Crestron Project]]></Description>
+<Properties>
+   <PositionAndSize Type="Locale">
+      <Top>0</Top>
+      <Left>0</Left>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <Z>1</Z>
+      <ScaleX>1.0</ScaleX>
+      <ScaleY>1.0</ScaleY>
+   </PositionAndSize>
+   <RotatedPositionAndSize Type="RotatedLocale">
+      <Top>0</Top>
+      <Left>0</Left>
+      <Width>1080</Width>
+      <Height>1920</Height>
+      <Z>1</Z>
+      <ScaleX>1.0</ScaleX>
+      <ScaleY>1.0</ScaleY>
+   </RotatedPositionAndSize>
+   <XPanel>
+      <WindowTitle><![CDATA[New Project]]></WindowTitle>
+      <KioskMode>false</KioskMode>
+   </XPanel>
+   <CNXConnection>
+      <Host><![CDATA[127.0.0.1]]></Host>
+      <IPID><![CDATA[03]]></IPID>
+      <Port></Port>
+      <EnableSSL>false</EnableSSL>
+      <ProgramInstanceId><![CDATA[]]></ProgramInstanceId>
+   </CNXConnection>
+   <Libraries>
+      <NumLibraries>1</NumLibraries>
+      <Library uid="0" Type="Library">
+         <Path>controls\BaseObjectsRSL.swf</Path>
+      </Library>
+   </Libraries>
+   <Themes>
+      <ProjectThemeJoin>0</ProjectThemeJoin>
+      <ProjectTheme>0</ProjectTheme>
+      <NumThemes>1</NumThemes>
+      <Theme uid="0" Type="Theme">
+         <Path>themes\CT_Neo [System]\CT_Neo.xml</Path>
+         <StylesUsed><![CDATA[]]></StylesUsed>
+      </Theme>
+   </Themes>
+   <Hardkeys>
+      <NumHardkeys>0</NumHardkeys>
+   </Hardkeys>
+   <KeyClicks>
+      <UseDefault>
+         <SuppressKeyClicks>true</SuppressKeyClicks>
+      </UseDefault>
+   </KeyClicks>
+   <Sounds>
+      <NumSounds>0</NumSounds>
+   </Sounds>
+   <TransitionFrameRate></TransitionFrameRate>
+   <Language>
+      <JoinNumber>0</JoinNumber>
+      <Path>
+
+      </Path>
+   </Language>
+   <Backgrounds>
+      <BackgroundColor>0x0071bc</BackgroundColor>
+      <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+      <BackgroundAnalogJoin></BackgroundAnalogJoin>
+      <NumBackgrounds>0</NumBackgrounds>
+   </Backgrounds>
+   <RotatedBackgrounds>
+      <BackgroundColor>0x0071bc</BackgroundColor>
+      <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+      <BackgroundAnalogJoin></BackgroundAnalogJoin>
+      <NumBackgrounds>0</NumBackgrounds>
+   </RotatedBackgrounds>
+   <SystemMessages>
+      <ModalBackgroundStyle Type="Style" categoryName="Icons" title="Modal Background Style">
+         <StyleID>0</StyleID>
+      </ModalBackgroundStyle>
+      <ModalCloseButtonStyle Type="Style" categoryName="Backgrounds" title="Close Button Style">
+         <StyleID>0</StyleID>
+      </ModalCloseButtonStyle>
+   </SystemMessages>
+   <ProjectScaling><Stretch>Stretch</Stretch>
+</ProjectScaling>
+<LetterBoxColor>0x000000</LetterBoxColor>
+<UseRtl>Off</UseRtl>
+<CharacterEncoding>iso-8859-1</CharacterEncoding>
+<FirstToLoad>1</FirstToLoad>
+<PreloadPages>true</PreloadPages>
+
+<Page_Count>4</Page_Count>
+<Pages>
+<Page uid="1" Name="Main">
+    <TargetControl>Page</TargetControl>
+    <TargetXSD>Page.xsd</TargetXSD>
+    <ControlName>Page</ControlName>
+    <CategoryName>Page</CategoryName>
+    <Thumbnail>Page.bmp</Thumbnail>
+    <VersionNumber>2.0.3.422</VersionNumber>
+    <ObjectName><![CDATA[Page]]></ObjectName>
+    <Description><![CDATA[Crestron Page]]></Description>
+    <Properties>
+        <PositionAndSize Type="Locale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>1920</Width>
+            <Height>1080</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </PositionAndSize>
+        <RotatedPositionAndSize Type="RotatedLocale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>1920</Width>
+            <Height>1080</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </RotatedPositionAndSize>
+        <UseProjectTheme>True</UseProjectTheme>
+        <ThemeID>0</ThemeID>
+        <PageThemeJoin>0</PageThemeJoin>
+        <PreloadPage>False</PreloadPage>
+        <TransitionIn>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <None>None</None>
+            </TransitionType>
+            <TransitionTime>0.2</TransitionTime>
+        </TransitionIn>
+        <TransitionOut>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <None>None</None>
+            </TransitionType>
+            <TransitionTime>0.2</TransitionTime>
+        </TransitionOut>
+        <IsSubpage>False</IsSubpage>
+        <DigitalJoin>0</DigitalJoin>
+        <TransitionCompleteJoin>0</TransitionCompleteJoin>
+        <DigitalJoinOffset>0</DigitalJoinOffset>
+        <AnalogJoinOffset>0</AnalogJoinOffset>
+        <SerialJoinOffset>0</SerialJoinOffset>
+        <Hardkeys>
+            <NumHardkeys>0</NumHardkeys>
+        </Hardkeys>
+        <Backgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </Backgrounds>
+        <RotatedBackgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </RotatedBackgrounds>
+        <Children>
+            <Child uid="1">
+                <!-- Name [ Formatted_Text ] -->
+                <TargetControl>Formatted_Text</TargetControl>
+                <ControlName>Formatted Text</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[MainPg_ProcessorHostname_Txt]]></ObjectName>
+                <Description><![CDATA[Crestron Formatted Text]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>40</Top>
+                        <Left>26</Left>
+                        <Width>1667</Width>
+                        <Height>68</Height>
+                        <Z>2</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>2</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>65</StyleID>
+                    </Style>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>false</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[<P><FONT size="48" face="Crestron Sans Pro" color="#ffffff">Processor Hostname: <cips>20?</cips></FONT></P>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="4">
+                <!-- Name [ Text_Entry ] -->
+                <TargetControl>Text_Entry</TargetControl>
+                <ControlName>TextEntry</ControlName>
+                <VersionNumber>1.0.15.299</VersionNumber>
+                <ObjectName><![CDATA[MainPg_EditHostname_TextEntry]]></ObjectName>
+                <Description><![CDATA[Crestron Text Entry]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>133</Top>
+                        <Left>497</Left>
+                        <Width>1015</Width>
+                        <Height>84</Height>
+                        <Z>3</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>3</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Widgets" title="Style">
+                        <StyleID>223</StyleID>
+                    </Style>
+                    <EnterKeyPressJoin>0</EnterKeyPressJoin>
+                    <EscKeyPressJoin>0</EscKeyPressJoin>
+                    <SerialJoin>0</SerialJoin>
+                    <SerialOutputJoin>21</SerialOutputJoin>
+                    <AnalogModeJoin>0</AnalogModeJoin>
+                    <SetFocusJoinOn>0</SetFocusJoinOn>
+                    <SetFocusJoinOff>0</SetFocusJoinOff>
+                    <HasFocusJoin>0</HasFocusJoin>
+                    <DigitalEnableJoin>21</DigitalEnableJoin>
+                    <VisibilityJoin>0</VisibilityJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <BorderSize>10</BorderSize>
+                    <FontSizeChoice>48</FontSizeChoice>
+                    <LaunchKeyboard>true</LaunchKeyboard>
+                    <DisplayAsPassword>false</DisplayAsPassword>
+                    <FilterType>
+                        <DefaultFilter>Default Filter</DefaultFilter>
+                    </FilterType>
+                    <AllowControlOverlap>false</AllowControlOverlap>
+                </Properties>
+            </Child>
+            <Child uid="5">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[MainPg_ProcessorHostnameEdit_Btn]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>36</Top>
+                        <Left>1745</Left>
+                        <Width>141</Width>
+                        <Height>89</Height>
+                        <Z>4</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>4</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>1</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseState>
+                            <State>105</State>
+                        </UseState>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>true</ShowSelectFeedback>
+                    <DigitalPressJoin>20</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="8">
+                <!-- Name [ Simple_Label ] -->
+                <TargetControl>Simple_Label</TargetControl>
+                <ControlName>Simple Label</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[Simple Label]]></ObjectName>
+                <Description><![CDATA[Crestron Simple Label]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>240</Top>
+                        <Left>31</Left>
+                        <Width>414</Width>
+                        <Height>68</Height>
+                        <Z>5</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>5</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <FontSizeChoice>48</FontSizeChoice>
+                    <FontColor>0xffffff</FontColor>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>false</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[CNET Devices]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="9">
+                <!-- Name [ Button_List ] -->
+                <TargetControl>Button_List</TargetControl>
+                <ControlName>Button List Vertical</ControlName>
+                <VersionNumber>1.0.18.542</VersionNumber>
+                <ObjectName><![CDATA[MainPg_CNETDevice_BtnList]]></ObjectName>
+                <Description><![CDATA[Crestron Vertical Button List]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>326</Top>
+                        <Left>31</Left>
+                        <Width>414</Width>
+                        <Height>571</Height>
+                        <Z>6</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>6</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <ControlJoin>20</ControlJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <AnalogSelectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>1</JoinNumber>
+                        <SignalName><![CDATA[Select Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectJoin>
+                    <AnalogDeselectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>2</JoinNumber>
+                        <SignalName><![CDATA[Deselect Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogDeselectJoin>
+                    <AnalogScrollJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>3</JoinNumber>
+                        <SignalName><![CDATA[Scroll Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogScrollJoin>
+                    <AnalogSelectedJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>4</JoinNumber>
+                        <SignalName><![CDATA[Item Clicked]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectedJoin>
+                    <AnalogHoldJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>5</JoinNumber>
+                        <SignalName><![CDATA[Item Held]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogHoldJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <AnalogNumberOfItemsJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>6</JoinNumber>
+                        <SignalName><![CDATA[Set Num of Items]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogNumberOfItemsJoin>
+                    <Orientation>
+                        <Vertical>
+                            <NumDivisions>1</NumDivisions>
+                            <DisplayBackground>true</DisplayBackground>
+                            <ListBackground Type="Style" categoryName="Backgrounds" title="List Background">
+                                <StyleID>204</StyleID>
+                            </ListBackground>
+                            <ShowScrollbar>true</ShowScrollbar>
+                            <Position>Right</Position>
+                        </Vertical>
+                    </Orientation>
+                    <EndlessScrolling>false</EndlessScrolling>
+                    <ClickTime></ClickTime>
+                    <ClickHoldTime>1500</ClickHoldTime>
+                    <ItemSpacing>0</ItemSpacing>
+                    <Margin>5</Margin>
+                    <UseIndirectText>false</UseIndirectText>
+                    <UseAspectRatio>false</UseAspectRatio>
+                    <MultilineSupport>true</MultilineSupport>
+                    <ScrollTime>1.0</ScrollTime>
+                    <ButtonList>
+                        <Style Type="Style" categoryName="Buttons" title="Button Style">
+                            <StyleID>258</StyleID>
+                        </Style>
+                        <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                            <StyleID>168</StyleID>
+                        </IconStyle>
+                        <ThemeVsCustomDim>
+                            <UseThemeDim>Use theme dimension</UseThemeDim>
+                        </ThemeVsCustomDim>
+                        <NormalState>0</NormalState>
+                        <PressedState>1</PressedState>
+                        <SelectedState>2</SelectedState>
+                        <TextAlignment>Center</TextAlignment>
+                        <TextShadowProperties Type="TextShadowProperties">
+                            <UseShadow>false</UseShadow>
+                            <ShadowDistance>2</ShadowDistance>
+                            <ShadowAngle>45</ShadowAngle>
+                            <ShadowBlurX>2</ShadowBlurX>
+                            <ShadowBlurY>2</ShadowBlurY>
+                            <ShadowStrength>1.0</ShadowStrength>
+                            <ShadowColor>0x000000</ShadowColor>
+                            <ShadowAlpha>1.0</ShadowAlpha>
+                        </TextShadowProperties>
+                        <Buttons>
+                            <ButtonCount>10</ButtonCount>
+                            <Button uid="1">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="2">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="3">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="4">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="5">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="6">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="7">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="8">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="9">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="10">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                        </Buttons>
+                    </ButtonList>
+                </Properties>
+            </Child>
+            <Child uid="10">
+                <!-- Name [ Simple_Label ] -->
+                <TargetControl>Simple_Label</TargetControl>
+                <ControlName>Simple Label</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[Simple Label_2]]></ObjectName>
+                <Description><![CDATA[Crestron Simple Label]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>240</Top>
+                        <Left>482</Left>
+                        <Width>414</Width>
+                        <Height>68</Height>
+                        <Z>7</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>7</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <FontSizeChoice>48</FontSizeChoice>
+                    <FontColor>0xffffff</FontColor>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>false</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[ENET Devices]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="11">
+                <!-- Name [ Button_List ] -->
+                <TargetControl>Button_List</TargetControl>
+                <ControlName>Button List Vertical</ControlName>
+                <VersionNumber>1.0.18.542</VersionNumber>
+                <ObjectName><![CDATA[MainPg_ENETDevice_BtnList]]></ObjectName>
+                <Description><![CDATA[Crestron Vertical Button List]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>326</Top>
+                        <Left>482</Left>
+                        <Width>414</Width>
+                        <Height>569</Height>
+                        <Z>8</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>8</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <ControlJoin>21</ControlJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <AnalogSelectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>1</JoinNumber>
+                        <SignalName><![CDATA[Select Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectJoin>
+                    <AnalogDeselectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>2</JoinNumber>
+                        <SignalName><![CDATA[Deselect Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogDeselectJoin>
+                    <AnalogScrollJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>3</JoinNumber>
+                        <SignalName><![CDATA[Scroll Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogScrollJoin>
+                    <AnalogSelectedJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>4</JoinNumber>
+                        <SignalName><![CDATA[Item Clicked]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectedJoin>
+                    <AnalogHoldJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>5</JoinNumber>
+                        <SignalName><![CDATA[Item Held]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogHoldJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <AnalogNumberOfItemsJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>6</JoinNumber>
+                        <SignalName><![CDATA[Set Num of Items]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogNumberOfItemsJoin>
+                    <Orientation>
+                        <Vertical>
+                            <NumDivisions>1</NumDivisions>
+                            <DisplayBackground>true</DisplayBackground>
+                            <ListBackground Type="Style" categoryName="Backgrounds" title="List Background">
+                                <StyleID>204</StyleID>
+                            </ListBackground>
+                            <ShowScrollbar>true</ShowScrollbar>
+                            <Position>Right</Position>
+                        </Vertical>
+                    </Orientation>
+                    <EndlessScrolling>false</EndlessScrolling>
+                    <ClickTime></ClickTime>
+                    <ClickHoldTime>1500</ClickHoldTime>
+                    <ItemSpacing>0</ItemSpacing>
+                    <Margin>5</Margin>
+                    <UseIndirectText>false</UseIndirectText>
+                    <UseAspectRatio>false</UseAspectRatio>
+                    <MultilineSupport>true</MultilineSupport>
+                    <ScrollTime>1.0</ScrollTime>
+                    <ButtonList>
+                        <Style Type="Style" categoryName="Buttons" title="Button Style">
+                            <StyleID>258</StyleID>
+                        </Style>
+                        <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                            <StyleID>168</StyleID>
+                        </IconStyle>
+                        <ThemeVsCustomDim>
+                            <UseThemeDim>Use theme dimension</UseThemeDim>
+                        </ThemeVsCustomDim>
+                        <NormalState>0</NormalState>
+                        <PressedState>1</PressedState>
+                        <SelectedState>2</SelectedState>
+                        <TextAlignment>Center</TextAlignment>
+                        <TextShadowProperties Type="TextShadowProperties">
+                            <UseShadow>false</UseShadow>
+                            <ShadowDistance>2</ShadowDistance>
+                            <ShadowAngle>45</ShadowAngle>
+                            <ShadowBlurX>2</ShadowBlurX>
+                            <ShadowBlurY>2</ShadowBlurY>
+                            <ShadowStrength>1.0</ShadowStrength>
+                            <ShadowColor>0x000000</ShadowColor>
+                            <ShadowAlpha>1.0</ShadowAlpha>
+                        </TextShadowProperties>
+                        <Buttons>
+                            <ButtonCount>10</ButtonCount>
+                            <Button uid="1">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="2">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="3">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="4">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="5">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="6">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="7">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="8">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="9">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="10">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                        </Buttons>
+                    </ButtonList>
+                </Properties>
+            </Child>
+            <Child uid="12">
+                <!-- Name [ Button_List ] -->
+                <TargetControl>Button_List</TargetControl>
+                <ControlName>Button List Vertical</ControlName>
+                <VersionNumber>1.0.18.542</VersionNumber>
+                <ObjectName><![CDATA[MainPg_ProcessorPorts_BtnList]]></ObjectName>
+                <Description><![CDATA[Crestron Vertical Button List]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>326</Top>
+                        <Left>932</Left>
+                        <Width>414</Width>
+                        <Height>569</Height>
+                        <Z>9</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>9</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <ControlJoin>22</ControlJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <AnalogSelectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>1</JoinNumber>
+                        <SignalName><![CDATA[Select Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectJoin>
+                    <AnalogDeselectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>2</JoinNumber>
+                        <SignalName><![CDATA[Deselect Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogDeselectJoin>
+                    <AnalogScrollJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>3</JoinNumber>
+                        <SignalName><![CDATA[Scroll Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogScrollJoin>
+                    <AnalogSelectedJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>4</JoinNumber>
+                        <SignalName><![CDATA[Item Clicked]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectedJoin>
+                    <AnalogHoldJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>5</JoinNumber>
+                        <SignalName><![CDATA[Item Held]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogHoldJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <AnalogNumberOfItemsJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>6</JoinNumber>
+                        <SignalName><![CDATA[Set Num of Items]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogNumberOfItemsJoin>
+                    <Orientation>
+                        <Vertical>
+                            <NumDivisions>1</NumDivisions>
+                            <DisplayBackground>true</DisplayBackground>
+                            <ListBackground Type="Style" categoryName="Backgrounds" title="List Background">
+                                <StyleID>204</StyleID>
+                            </ListBackground>
+                            <ShowScrollbar>true</ShowScrollbar>
+                            <Position>Right</Position>
+                        </Vertical>
+                    </Orientation>
+                    <EndlessScrolling>false</EndlessScrolling>
+                    <ClickTime></ClickTime>
+                    <ClickHoldTime>1500</ClickHoldTime>
+                    <ItemSpacing>0</ItemSpacing>
+                    <Margin>5</Margin>
+                    <UseIndirectText>false</UseIndirectText>
+                    <UseAspectRatio>false</UseAspectRatio>
+                    <MultilineSupport>true</MultilineSupport>
+                    <ScrollTime>1.0</ScrollTime>
+                    <ButtonList>
+                        <Style Type="Style" categoryName="Buttons" title="Button Style">
+                            <StyleID>258</StyleID>
+                        </Style>
+                        <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                            <StyleID>168</StyleID>
+                        </IconStyle>
+                        <ThemeVsCustomDim>
+                            <UseThemeDim>Use theme dimension</UseThemeDim>
+                        </ThemeVsCustomDim>
+                        <NormalState>0</NormalState>
+                        <PressedState>1</PressedState>
+                        <SelectedState>2</SelectedState>
+                        <TextAlignment>Center</TextAlignment>
+                        <TextShadowProperties Type="TextShadowProperties">
+                            <UseShadow>false</UseShadow>
+                            <ShadowDistance>2</ShadowDistance>
+                            <ShadowAngle>45</ShadowAngle>
+                            <ShadowBlurX>2</ShadowBlurX>
+                            <ShadowBlurY>2</ShadowBlurY>
+                            <ShadowStrength>1.0</ShadowStrength>
+                            <ShadowColor>0x000000</ShadowColor>
+                            <ShadowAlpha>1.0</ShadowAlpha>
+                        </TextShadowProperties>
+                        <Buttons>
+                            <ButtonCount>10</ButtonCount>
+                            <Button uid="1">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="2">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="3">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="4">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="5">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="6">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="7">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="8">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="9">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="10">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                        </Buttons>
+                    </ButtonList>
+                </Properties>
+            </Child>
+            <Child uid="13">
+                <!-- Name [ Simple_Label ] -->
+                <TargetControl>Simple_Label</TargetControl>
+                <ControlName>Simple Label</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[Simple Label_3]]></ObjectName>
+                <Description><![CDATA[Crestron Simple Label]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>240</Top>
+                        <Left>933</Left>
+                        <Width>414</Width>
+                        <Height>68</Height>
+                        <Z>10</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>10</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <FontSizeChoice>48</FontSizeChoice>
+                    <FontColor>0xffffff</FontColor>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>false</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[Ports]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="14">
+                <!-- Name [ Border_Object ] -->
+                <TargetControl>Border_Object</TargetControl>
+                <ControlName>Border</ControlName>
+                <VersionNumber>1.0.12.268</VersionNumber>
+                <ObjectName><![CDATA[Border Object]]></ObjectName>
+                <Description><![CDATA[Crestron Border Object]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>216</Top>
+                        <Left>1380</Left>
+                        <Width>507</Width>
+                        <Height>851</Height>
+                        <Z>11</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>200</Width>
+                        <Height>200</Height>
+                        <Z>11</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <Thickness>5</Thickness>
+                    <BorderColor>0x000000</BorderColor>
+                    <CornerRadius>0</CornerRadius>
+                    <DynamicSizing>false</DynamicSizing>
+                    <TextLabel><![CDATA[<FONT size="48" face="Crestron Sans Pro Semibold" color="#ffffff">Edit</FONT>]]></TextLabel>
+                    <HorizontalAlignment>Left</HorizontalAlignment>
+                    <Style Type="Style" categoryName="Text" title="Label Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="15">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[Button_2]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>930</Top>
+                        <Left>258</Left>
+                        <Width>412</Width>
+                        <Height>117</Height>
+                        <Z>12</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>12</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>247</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>false</ShowSelectFeedback>
+                    <DigitalPressJoin>22</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[<P><FONT size="48" face="Crestron Sans Pro" color="#ffffff">Save</FONT></P>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="16">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[Button_3]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>934</Top>
+                        <Left>707</Left>
+                        <Width>412</Width>
+                        <Height>117</Height>
+                        <Z>13</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>13</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>245</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>false</ShowSelectFeedback>
+                    <DigitalPressJoin>23</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[<FONT size="48" face="Crestron Sans Pro" color="#ffffff">Reset</FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Subpage uid="19">
+                <!-- Name [ EditDevice ],Visible 1 -->
+                <TargetControl>SubpageRef</TargetControl>
+                <TargetXSD>SubpageRef.xsd</TargetXSD>
+                <ControlName>Subpage Reference</ControlName>
+                <CategoryName>Page</CategoryName>
+                <Thumbnail>SubpageRef.bmp</Thumbnail>
+                <VersionNumber>2.0.0.924</VersionNumber>
+                <ObjectName><![CDATA[EditDevice_Subpage]]></ObjectName>
+                <Description><![CDATA[Crestron Subpage]]></Description>
+                <Properties>
+                    <PositionAndSize Type="Locale">
+                        <Top>257</Top>
+                        <Left>1380</Left>
+                        <Width>506</Width>
+                        <Height>807</Height>
+                        <Z>14</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>506</Width>
+                        <Height>807</Height>
+                        <Z>14</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <PageID>3</PageID>
+                    <GroupID>0</GroupID>
+                    <TransitionIn>
+                        <TransitionTypeJoin></TransitionTypeJoin>
+                        <TransitionEaseJoin></TransitionEaseJoin>
+                        <TransitionType>
+                            <None>None</None>
+                        </TransitionType>
+                        <TransitionTime>0.2</TransitionTime>
+                    </TransitionIn>
+                    <TransitionOut>
+                        <TransitionTypeJoin></TransitionTypeJoin>
+                        <TransitionEaseJoin></TransitionEaseJoin>
+                        <TransitionType>
+                            <None>None</None>
+                        </TransitionType>
+                        <TransitionTime>0.2</TransitionTime>
+                    </TransitionOut>
+                    <DigitalJoin>11</DigitalJoin>
+                    <OrientationVisibility></OrientationVisibility>
+                    <TransitionCompleteJoin>0</TransitionCompleteJoin>
+                    <DigitalJoinOffset>0</DigitalJoinOffset>
+                    <AnalogJoinOffset>0</AnalogJoinOffset>
+                    <SerialJoinOffset>0</SerialJoinOffset>
+                </Properties>
+            </Subpage>
+            <Subpage uid="18">
+                <!-- Name [ Confirm Screen ],Visible 0 -->
+                <TargetControl>SubpageRef</TargetControl>
+                <TargetXSD>SubpageRef.xsd</TargetXSD>
+                <ControlName>Subpage Reference</ControlName>
+                <CategoryName>Page</CategoryName>
+                <Thumbnail>SubpageRef.bmp</Thumbnail>
+                <VersionNumber>2.0.0.924</VersionNumber>
+                <ObjectName><![CDATA[ConfirmScreen_Subpage]]></ObjectName>
+                <Description><![CDATA[Crestron Subpage]]></Description>
+                <Properties>
+                    <PositionAndSize Type="Locale">
+                        <Top>0</Top>
+                        <Left>0</Left>
+                        <Width>1920</Width>
+                        <Height>1080</Height>
+                        <Z>15</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>1920</Width>
+                        <Height>1080</Height>
+                        <Z>15</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <PageID>2</PageID>
+                    <GroupID>0</GroupID>
+                    <TransitionIn>
+                        <TransitionTypeJoin></TransitionTypeJoin>
+                        <TransitionEaseJoin></TransitionEaseJoin>
+                        <TransitionType>
+                            <None>None</None>
+                        </TransitionType>
+                        <TransitionTime>0.2</TransitionTime>
+                    </TransitionIn>
+                    <TransitionOut>
+                        <TransitionTypeJoin></TransitionTypeJoin>
+                        <TransitionEaseJoin></TransitionEaseJoin>
+                        <TransitionType>
+                            <None>None</None>
+                        </TransitionType>
+                        <TransitionTime>0.2</TransitionTime>
+                    </TransitionOut>
+                    <DigitalJoin>10</DigitalJoin>
+                    <OrientationVisibility></OrientationVisibility>
+                    <TransitionCompleteJoin>0</TransitionCompleteJoin>
+                    <DigitalJoinOffset>0</DigitalJoinOffset>
+                    <AnalogJoinOffset>0</AnalogJoinOffset>
+                    <SerialJoinOffset>0</SerialJoinOffset>
+                </Properties>
+            </Subpage>
+        </Children>
+    </Properties>
+</Page>
+
+<Page uid="2" Name="Confirm Screen">
+    <TargetControl>Subpage</TargetControl>
+    <TargetXSD>Subpage.xsd</TargetXSD>
+    <ControlName>Subpage</ControlName>
+    <CategoryName>Subpage</CategoryName>
+    <Thumbnail>Subpage.bmp</Thumbnail>
+    <VersionNumber>2.0.3.422</VersionNumber>
+    <ObjectName><![CDATA[Subpage]]></ObjectName>
+    <Description><![CDATA[Crestron Subpage]]></Description>
+    <Properties>
+        <PositionAndSize Type="Locale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>1920</Width>
+            <Height>1080</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </PositionAndSize>
+        <RotatedPositionAndSize Type="RotatedLocale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>1920</Width>
+            <Height>1080</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </RotatedPositionAndSize>
+        <UseProjectTheme>True</UseProjectTheme>
+        <PageThemeJoin>0</PageThemeJoin>
+        <ThemeID>0</ThemeID>
+        <PreloadPage>False</PreloadPage>
+        <TransitionIn>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <Fade>
+                    <Linear>In</Linear>
+                </Fade>
+            </TransitionType>
+            <TransitionTime>0.5</TransitionTime>
+        </TransitionIn>
+        <TransitionOut>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <Fade>
+                    <Linear>In</Linear>
+                </Fade>
+            </TransitionType>
+            <TransitionTime>0.5</TransitionTime>
+        </TransitionOut>
+        <IsSubpage>true</IsSubpage>
+        <DigitalJoin>0</DigitalJoin>
+        <TransitionCompleteJoin>0</TransitionCompleteJoin>
+        <DigitalJoinOffset>0</DigitalJoinOffset>
+        <AnalogJoinOffset>0</AnalogJoinOffset>
+        <SerialJoinOffset>0</SerialJoinOffset>
+        <Hardkeys>
+            <NumHardkeys>0</NumHardkeys>
+        </Hardkeys>
+        <Backgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </Backgrounds>
+        <RotatedBackgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </RotatedBackgrounds>
+        <Children>
+            <Child uid="1">
+                <!-- Name [ Image_Object ] -->
+                <TargetControl>Image_Object</TargetControl>
+                <ControlName>Image Object</ControlName>
+                <VersionNumber>1.0.20.164</VersionNumber>
+                <ObjectName><![CDATA[Image Object]]></ObjectName>
+                <Description><![CDATA[Crestron Image Object]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>0</Top>
+                        <Left>0</Left>
+                        <Width>1920</Width>
+                        <Height>1080</Height>
+                        <Z>2</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>2</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Images" title="Image Style">
+                        <StyleID>313</StyleID>
+                    </Style>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <DigitalPressJoin>0</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <Momentary>false</Momentary>
+                    <EnableClickThrough>false</EnableClickThrough>
+                    <AnimationProperties>
+                        <DigitalAnimationJoin>0</DigitalAnimationJoin>
+                        <Interval>6</Interval>
+                        <StartAnimating>false</StartAnimating>
+                    </AnimationProperties>
+                    <AnnotationProperties>
+                        <DisableRemoteAnnotation>false</DisableRemoteAnnotation>
+                        <InputChannel>0</InputChannel>
+                        <InputChannelAnalogJoin>0</InputChannelAnalogJoin>
+                        <OutputChannel>0</OutputChannel>
+                        <OutputChannelAnalogJoin>0</OutputChannelAnalogJoin>
+                    </AnnotationProperties>
+                    <ModesOrDynamicGraphics>
+                        <UseModes>
+                            <AnalogModeJoin>0</AnalogModeJoin>
+                            <Modes>
+                                <NumModes>1</NumModes>
+                                <Mode uid="0">
+                                    <ImageType>
+                                        <UseState>
+                                            <State>0</State>
+                                        </UseState>
+                                    </ImageType>
+                                </Mode>
+                            </Modes>
+                        </UseModes>
+                    </ModesOrDynamicGraphics>
+                </Properties>
+            </Child>
+            <Child uid="2">
+                <!-- Name [ Border_Fill_Object ] -->
+                <TargetControl>Border_Fill_Object</TargetControl>
+                <ControlName>Fill Border</ControlName>
+                <VersionNumber>1.0.9.525</VersionNumber>
+                <ObjectName><![CDATA[Fill Border Object]]></ObjectName>
+                <Description><![CDATA[Crestron Fill Border Object]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>101</Top>
+                        <Left>170</Left>
+                        <Width>1581</Width>
+                        <Height>879</Height>
+                        <Z>3</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>200</Width>
+                        <Height>200</Height>
+                        <Z>3</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <Thickness>5</Thickness>
+                    <BorderColor>0xc0c0c0</BorderColor>
+                    <CornerRadius>0</CornerRadius>
+                    <TextLabel><![CDATA[Header Text]]></TextLabel>
+                    <HorizontalAlignment>Left</HorizontalAlignment>
+                    <FillColor>0xe5e5e5</FillColor>
+                    <FillAlpha>.5</FillAlpha>
+                    <BorderAlpha>1</BorderAlpha>
+                    <Style Type="Style" categoryName="Text" title="Label Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                </Properties>
+            </Child>
+            <Child uid="3">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[ConfirmationPg_Confirm_Btn]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>625</Top>
+                        <Left>302</Left>
+                        <Width>497</Width>
+                        <Height>210</Height>
+                        <Z>4</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>4</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>85</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>false</ShowSelectFeedback>
+                    <DigitalPressJoin>32</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[<FONT size="48" face="Crestron Sans Pro" color="#ffffff"><B>Confirm</B></FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="4">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[ConfirmationPg_Cancel_Btn]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>625</Top>
+                        <Left>1125</Left>
+                        <Width>497</Width>
+                        <Height>210</Height>
+                        <Z>5</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>5</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>245</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>false</ShowSelectFeedback>
+                    <DigitalPressJoin>33</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[<FONT size="48" face="Crestron Sans Pro" color="#ffffff"><B>Cancel</B></FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="5">
+                <!-- Name [ Formatted_Text ] -->
+                <TargetControl>Formatted_Text</TargetControl>
+                <ControlName>Formatted Text</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[ConfirmationText_Lbl]]></ObjectName>
+                <Description><![CDATA[Crestron Formatted Text]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>272</Top>
+                        <Left>297</Left>
+                        <Width>1321</Width>
+                        <Height>232</Height>
+                        <Z>6</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>6</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>65</StyleID>
+                    </Style>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>true</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[<P><FONT size="72" face="Crestron Sans Pro" color="#000000"><B>Clicking Confirm will </B><B><cipd>31?Clear:Save</cipd></B><B>&nbsp;all Selections.</B></FONT></P>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+        </Children>
+    </Properties>
+</Page>
+
+<Page uid="3" Name="EditDevice">
+    <TargetControl>Subpage</TargetControl>
+    <TargetXSD>Subpage.xsd</TargetXSD>
+    <ControlName>Subpage</ControlName>
+    <CategoryName>Subpage</CategoryName>
+    <Thumbnail>Subpage.bmp</Thumbnail>
+    <VersionNumber>2.0.3.422</VersionNumber>
+    <ObjectName><![CDATA[Subpage]]></ObjectName>
+    <Description><![CDATA[Crestron Subpage]]></Description>
+    <Properties>
+        <PositionAndSize Type="Locale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>506</Width>
+            <Height>807</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </PositionAndSize>
+        <RotatedPositionAndSize Type="RotatedLocale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>506</Width>
+            <Height>807</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </RotatedPositionAndSize>
+        <UseProjectTheme>True</UseProjectTheme>
+        <PageThemeJoin>0</PageThemeJoin>
+        <ThemeID>0</ThemeID>
+        <PreloadPage>False</PreloadPage>
+        <TransitionIn>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <Fade>
+                    <Linear>In</Linear>
+                </Fade>
+            </TransitionType>
+            <TransitionTime>0.5</TransitionTime>
+        </TransitionIn>
+        <TransitionOut>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <Fade>
+                    <Linear>In</Linear>
+                </Fade>
+            </TransitionType>
+            <TransitionTime>0.5</TransitionTime>
+        </TransitionOut>
+        <IsSubpage>true</IsSubpage>
+        <DigitalJoin>0</DigitalJoin>
+        <TransitionCompleteJoin>0</TransitionCompleteJoin>
+        <DigitalJoinOffset>0</DigitalJoinOffset>
+        <AnalogJoinOffset>0</AnalogJoinOffset>
+        <SerialJoinOffset>0</SerialJoinOffset>
+        <Hardkeys>
+            <NumHardkeys>0</NumHardkeys>
+        </Hardkeys>
+        <Backgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x808080</BackgroundColor>
+            <BackgroundAlpha>150</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </Backgrounds>
+        <RotatedBackgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </RotatedBackgrounds>
+        <Children>
+            <Child uid="1">
+                <!-- Name [ Border_Fill_Object ] -->
+                <TargetControl>Border_Fill_Object</TargetControl>
+                <ControlName>Fill Border</ControlName>
+                <VersionNumber>1.0.9.525</VersionNumber>
+                <ObjectName><![CDATA[Fill Border Object_3]]></ObjectName>
+                <Description><![CDATA[Crestron Fill Border Object]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>178</Top>
+                        <Left>9</Left>
+                        <Width>487</Width>
+                        <Height>432</Height>
+                        <Z>2</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>200</Width>
+                        <Height>200</Height>
+                        <Z>2</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <Thickness>3</Thickness>
+                    <BorderColor>0xffffff</BorderColor>
+                    <CornerRadius>10</CornerRadius>
+                    <TextLabel><![CDATA[Header Text]]></TextLabel>
+                    <HorizontalAlignment>Left</HorizontalAlignment>
+                    <FillColor>0x00ff40</FillColor>
+                    <FillAlpha>0</FillAlpha>
+                    <BorderAlpha>1</BorderAlpha>
+                    <Style Type="Style" categoryName="Text" title="Label Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                </Properties>
+            </Child>
+            <Child uid="2">
+                <!-- Name [ Border_Fill_Object ] -->
+                <TargetControl>Border_Fill_Object</TargetControl>
+                <ControlName>Fill Border</ControlName>
+                <VersionNumber>1.0.9.525</VersionNumber>
+                <ObjectName><![CDATA[Fill Border Object_2]]></ObjectName>
+                <Description><![CDATA[Crestron Fill Border Object]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>11</Top>
+                        <Left>10</Left>
+                        <Width>487</Width>
+                        <Height>160</Height>
+                        <Z>3</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>200</Width>
+                        <Height>200</Height>
+                        <Z>3</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <Thickness>3</Thickness>
+                    <BorderColor>0xffffff</BorderColor>
+                    <CornerRadius>10</CornerRadius>
+                    <TextLabel><![CDATA[Header Text]]></TextLabel>
+                    <HorizontalAlignment>Left</HorizontalAlignment>
+                    <FillColor>0x00ff40</FillColor>
+                    <FillAlpha>0</FillAlpha>
+                    <BorderAlpha>1</BorderAlpha>
+                    <Style Type="Style" categoryName="Text" title="Label Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                </Properties>
+            </Child>
+            <Child uid="3">
+                <!-- Name [ Formatted_Text ] -->
+                <TargetControl>Formatted_Text</TargetControl>
+                <ControlName>Formatted Text</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_Hostname_Text]]></ObjectName>
+                <Description><![CDATA[Crestron Formatted Text]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>14</Top>
+                        <Left>11</Left>
+                        <Width>482</Width>
+                        <Height>74</Height>
+                        <Z>4</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>4</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>65</StyleID>
+                    </Style>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>false</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[<FONT size="32" face="Crestron Sans Pro" color="#ffffff"><cips>40?Device Hostname</cips></FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="4">
+                <!-- Name [ Text_Entry ] -->
+                <TargetControl>Text_Entry</TargetControl>
+                <ControlName>TextEntry</ControlName>
+                <VersionNumber>1.0.15.299</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_NewHostname_Text]]></ObjectName>
+                <Description><![CDATA[Crestron Text Entry]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>97</Top>
+                        <Left>18</Left>
+                        <Width>470</Width>
+                        <Height>64</Height>
+                        <Z>5</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>5</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Widgets" title="Style">
+                        <StyleID>223</StyleID>
+                    </Style>
+                    <EnterKeyPressJoin>0</EnterKeyPressJoin>
+                    <EscKeyPressJoin>0</EscKeyPressJoin>
+                    <SerialJoin>42</SerialJoin>
+                    <SerialOutputJoin>42</SerialOutputJoin>
+                    <AnalogModeJoin>0</AnalogModeJoin>
+                    <SetFocusJoinOn>0</SetFocusJoinOn>
+                    <SetFocusJoinOff>0</SetFocusJoinOff>
+                    <HasFocusJoin>0</HasFocusJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <VisibilityJoin>0</VisibilityJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <BorderSize>10</BorderSize>
+                    <FontSizeChoice>32</FontSizeChoice>
+                    <LaunchKeyboard>true</LaunchKeyboard>
+                    <DisplayAsPassword>false</DisplayAsPassword>
+                    <FilterType>
+                        <DefaultFilter>Default Filter</DefaultFilter>
+                    </FilterType>
+                    <AllowControlOverlap>false</AllowControlOverlap>
+                </Properties>
+            </Child>
+            <Child uid="5">
+                <!-- Name [ Formatted_Text ] -->
+                <TargetControl>Formatted_Text</TargetControl>
+                <ControlName>Formatted Text</ControlName>
+                <VersionNumber>1.0.8.622</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_DeviceID_Text]]></ObjectName>
+                <Description><![CDATA[Crestron Formatted Text]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>181</Top>
+                        <Left>8</Left>
+                        <Width>482</Width>
+                        <Height>74</Height>
+                        <Z>6</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>150</Width>
+                        <Height>25</Height>
+                        <Z>6</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Text" title="Text Style">
+                        <StyleID>65</StyleID>
+                    </Style>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Middle</VerticalAlignment>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <UseHTMLFormatting>true</UseHTMLFormatting>
+                    <MultilineSupport>false</MultilineSupport>
+                    <TruncateText>false</TruncateText>
+                    <Label><![CDATA[<FONT size="32" face="Crestron Sans Pro" color="#ffffff"><cips>41?Device ID</cips></FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="6">
+                <!-- Name [ Button_List ] -->
+                <TargetControl>Button_List</TargetControl>
+                <ControlName>Button List Vertical</ControlName>
+                <VersionNumber>1.0.18.542</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_IDList_Text]]></ObjectName>
+                <Description><![CDATA[Crestron Vertical Button List]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>257</Top>
+                        <Left>18</Left>
+                        <Width>470</Width>
+                        <Height>343</Height>
+                        <Z>7</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>7</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <ControlJoin>40</ControlJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <AnalogSelectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>1</JoinNumber>
+                        <SignalName><![CDATA[Select Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectJoin>
+                    <AnalogDeselectJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>2</JoinNumber>
+                        <SignalName><![CDATA[Deselect Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogDeselectJoin>
+                    <AnalogScrollJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>3</JoinNumber>
+                        <SignalName><![CDATA[Scroll Item]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogScrollJoin>
+                    <AnalogSelectedJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>4</JoinNumber>
+                        <SignalName><![CDATA[Item Clicked]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogSelectedJoin>
+                    <AnalogHoldJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>Out</Direction>
+                        <JoinNumber>5</JoinNumber>
+                        <SignalName><![CDATA[Item Held]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogHoldJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <AnalogNumberOfItemsJoin Type="JoinCommand">
+                        <JoinType>Analog</JoinType>
+                        <Direction>In</Direction>
+                        <JoinNumber>6</JoinNumber>
+                        <SignalName><![CDATA[Set Num of Items]]></SignalName>
+                        <InSignalName><![CDATA[]]></InSignalName>
+                        <OutSignalName><![CDATA[]]></OutSignalName>
+                    </AnalogNumberOfItemsJoin>
+                    <Orientation>
+                        <Vertical>
+                            <NumDivisions>1</NumDivisions>
+                            <DisplayBackground>true</DisplayBackground>
+                            <ListBackground Type="Style" categoryName="Backgrounds" title="List Background">
+                                <StyleID>204</StyleID>
+                            </ListBackground>
+                            <ShowScrollbar>true</ShowScrollbar>
+                            <Position>Right</Position>
+                        </Vertical>
+                    </Orientation>
+                    <EndlessScrolling>false</EndlessScrolling>
+                    <ClickTime></ClickTime>
+                    <ClickHoldTime>1500</ClickHoldTime>
+                    <ItemSpacing>0</ItemSpacing>
+                    <Margin>5</Margin>
+                    <UseIndirectText>false</UseIndirectText>
+                    <UseAspectRatio>false</UseAspectRatio>
+                    <MultilineSupport>true</MultilineSupport>
+                    <ScrollTime>1.0</ScrollTime>
+                    <ButtonList>
+                        <Style Type="Style" categoryName="Buttons" title="Button Style">
+                            <StyleID>258</StyleID>
+                        </Style>
+                        <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                            <StyleID>168</StyleID>
+                        </IconStyle>
+                        <ThemeVsCustomDim>
+                            <UseThemeDim>Use theme dimension</UseThemeDim>
+                        </ThemeVsCustomDim>
+                        <NormalState>0</NormalState>
+                        <PressedState>1</PressedState>
+                        <SelectedState>2</SelectedState>
+                        <TextAlignment>Center</TextAlignment>
+                        <TextShadowProperties Type="TextShadowProperties">
+                            <UseShadow>false</UseShadow>
+                            <ShadowDistance>2</ShadowDistance>
+                            <ShadowAngle>45</ShadowAngle>
+                            <ShadowBlurX>2</ShadowBlurX>
+                            <ShadowBlurY>2</ShadowBlurY>
+                            <ShadowStrength>1.0</ShadowStrength>
+                            <ShadowColor>0x000000</ShadowColor>
+                            <ShadowAlpha>1.0</ShadowAlpha>
+                        </TextShadowProperties>
+                        <Buttons>
+                            <ButtonCount>10</ButtonCount>
+                            <Button uid="1">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>1</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="2">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>2</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="3">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>3</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="4">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>4</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="5">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>5</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="6">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>6</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="7">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>7</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="8">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>8</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="9">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>9</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                            <Button uid="10">
+                                <IconType>
+                                    <UseNone>No Image</UseNone>
+                                </IconType>
+                                <Label><![CDATA[]]></Label>
+                                <PageFlip>0</PageFlip>
+                                <SubpageFlip>0</SubpageFlip>
+                                <DigitalPressJoin Type="JoinCommand">
+                                    <JoinType>Digital</JoinType>
+                                    <Direction>Out</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Pressed]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </DigitalPressJoin>
+                                <IndirectTextJoin Type="JoinCommand">
+                                    <JoinType>Serial</JoinType>
+                                    <Direction>In</Direction>
+                                    <JoinNumber>10</JoinNumber>
+                                    <SignalName><![CDATA[Item %i Text]]></SignalName>
+                                    <InSignalName><![CDATA[]]></InSignalName>
+                                    <OutSignalName><![CDATA[]]></OutSignalName>
+                                </IndirectTextJoin>
+                            </Button>
+                        </Buttons>
+                    </ButtonList>
+                </Properties>
+            </Child>
+            <Child uid="7">
+                <!-- Name [ Border_Fill_Object ] -->
+                <TargetControl>Border_Fill_Object</TargetControl>
+                <ControlName>Fill Border</ControlName>
+                <VersionNumber>1.0.9.525</VersionNumber>
+                <ObjectName><![CDATA[Fill Border Object_4]]></ObjectName>
+                <Description><![CDATA[Crestron Fill Border Object]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>620</Top>
+                        <Left>8</Left>
+                        <Width>487</Width>
+                        <Height>86</Height>
+                        <Z>8</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>200</Width>
+                        <Height>200</Height>
+                        <Z>8</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <Thickness>3</Thickness>
+                    <BorderColor>0xffffff</BorderColor>
+                    <CornerRadius>10</CornerRadius>
+                    <TextLabel><![CDATA[Header Text]]></TextLabel>
+                    <HorizontalAlignment>Left</HorizontalAlignment>
+                    <FillColor>0x00ff40</FillColor>
+                    <FillAlpha>0</FillAlpha>
+                    <BorderAlpha>1</BorderAlpha>
+                    <Style Type="Style" categoryName="Text" title="Label Style">
+                        <StyleID>5</StyleID>
+                    </Style>
+                </Properties>
+            </Child>
+            <Child uid="8">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_Save_Btn]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>721</Top>
+                        <Left>20</Left>
+                        <Width>216</Width>
+                        <Height>73</Height>
+                        <Z>9</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>9</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>247</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>false</ShowSelectFeedback>
+                    <DigitalPressJoin>41</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[<FONT size="30" face="Crestron Sans Pro" color="#ffffff"><B>Save</B></FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="9">
+                <!-- Name [ Simple_Button ] -->
+                <TargetControl>Simple_Button</TargetControl>
+                <ControlName>Button</ControlName>
+                <VersionNumber>1.0.8.542</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_Cancel_Btn]]></ObjectName>
+                <Description><![CDATA[Crestron Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>720</Top>
+                        <Left>266</Left>
+                        <Width>216</Width>
+                        <Height>73</Height>
+                        <Z>10</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>10</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>245</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <ShowSelectFeedback>false</ShowSelectFeedback>
+                    <DigitalPressJoin>42</DigitalPressJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <MultilineSupport>true</MultilineSupport>
+                    <Label><![CDATA[<FONT size="30" face="Crestron Sans Pro" color="#ffffff"><B>Cancel</B></FONT>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                </Properties>
+            </Child>
+            <Child uid="10">
+                <!-- Name [ Checkbox_Button ] -->
+                <TargetControl>Checkbox_Button</TargetControl>
+                <ControlName>Checkbox Button</ControlName>
+                <VersionNumber>1.0.13.268</VersionNumber>
+                <ObjectName><![CDATA[EditDeviceSub_SetIPTable_CheckBox]]></ObjectName>
+                <Description><![CDATA[Crestron Checkbox Button]]></Description>
+                <ParentSWF></ParentSWF>
+                <IsRSL>True</IsRSL>
+                <Properties Type="ChildProperties">
+                    <PositionAndSize Type="Locale">
+                        <Top>631</Top>
+                        <Left>22</Left>
+                        <Width>459</Width>
+                        <Height>60</Height>
+                        <Z>11</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </PositionAndSize>
+                    <RotatedPositionAndSize Type="RotatedLocale">
+                        <Top>-1</Top>
+                        <Left>-1</Left>
+                        <Width>0</Width>
+                        <Height>0</Height>
+                        <Z>11</Z>
+                        <ScaleX>1.0</ScaleX>
+                        <ScaleY>1.0</ScaleY>
+                    </RotatedPositionAndSize>
+                    <Style Type="Style" categoryName="Buttons" title="Button Style">
+                        <StyleID>264</StyleID>
+                    </Style>
+                    <IconStyle Type="Style" categoryName="Icons" title="Icon Style">
+                        <StyleID>168</StyleID>
+                    </IconStyle>
+                    <IconType>
+                        <UseNone>No Image</UseNone>
+                    </IconType>
+                    <TextAlignment>Center</TextAlignment>
+                    <PageFlip>0</PageFlip>
+                    <SubpageFlip>0</SubpageFlip>
+                    <CheckedStateJoin>40</CheckedStateJoin>
+                    <DigitalEnableJoin>0</DigitalEnableJoin>
+                    <DigitalVisibilityJoin>0</DigitalVisibilityJoin>
+                    <IndirectTextJoin>0</IndirectTextJoin>
+                    <SuppressKeyClicks>false</SuppressKeyClicks>
+                    <MultilineSupport>true</MultilineSupport>
+                    <NormalState>0</NormalState>
+                    <PressedState>1</PressedState>
+                    <SelectedState>2</SelectedState>
+                    <Label><![CDATA[<P align="left"><FONT size="36" face="Crestron Sans Pro" color="#ffffff"><B>Set IP Table</B></FONT></P>]]></Label>
+                    <TextShadowProperties Type="TextShadowProperties">
+                        <UseShadow>false</UseShadow>
+                        <ShadowDistance>2</ShadowDistance>
+                        <ShadowAngle>45</ShadowAngle>
+                        <ShadowBlurX>2</ShadowBlurX>
+                        <ShadowBlurY>2</ShadowBlurY>
+                        <ShadowStrength>1.0</ShadowStrength>
+                        <ShadowColor>0x000000</ShadowColor>
+                        <ShadowAlpha>1.0</ShadowAlpha>
+                    </TextShadowProperties>
+                    <CheckBoxLocation>
+                        <Left>Left</Left>
+                    </CheckBoxLocation>
+                    <CheckBoxThemeColor>
+                        <Light>Light</Light>
+                    </CheckBoxThemeColor>
+                </Properties>
+            </Child>
+        </Children>
+    </Properties>
+</Page>
+
+<Page uid="4" Name="EditPort">
+    <TargetControl>Subpage</TargetControl>
+    <TargetXSD>Subpage.xsd</TargetXSD>
+    <ControlName>Subpage</ControlName>
+    <CategoryName>Subpage</CategoryName>
+    <Thumbnail>Subpage.bmp</Thumbnail>
+    <VersionNumber>2.0.3.422</VersionNumber>
+    <ObjectName><![CDATA[Subpage]]></ObjectName>
+    <Description><![CDATA[Crestron Subpage]]></Description>
+    <Properties>
+        <PositionAndSize Type="Locale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>506</Width>
+            <Height>807</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </PositionAndSize>
+        <RotatedPositionAndSize Type="RotatedLocale">
+            <Top>0</Top>
+            <Left>0</Left>
+            <Width>506</Width>
+            <Height>807</Height>
+            <Z>1</Z>
+            <ScaleX>1.0</ScaleX>
+            <ScaleY>1.0</ScaleY>
+        </RotatedPositionAndSize>
+        <UseProjectTheme>True</UseProjectTheme>
+        <PageThemeJoin>0</PageThemeJoin>
+        <ThemeID>0</ThemeID>
+        <PreloadPage>False</PreloadPage>
+        <TransitionIn>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <Fade>
+                    <Linear>In</Linear>
+                </Fade>
+            </TransitionType>
+            <TransitionTime>0.5</TransitionTime>
+        </TransitionIn>
+        <TransitionOut>
+            <TransitionTypeJoin></TransitionTypeJoin>
+            <TransitionEaseJoin></TransitionEaseJoin>
+            <TransitionType>
+                <Fade>
+                    <Linear>In</Linear>
+                </Fade>
+            </TransitionType>
+            <TransitionTime>0.5</TransitionTime>
+        </TransitionOut>
+        <IsSubpage>true</IsSubpage>
+        <DigitalJoin>0</DigitalJoin>
+        <TransitionCompleteJoin>0</TransitionCompleteJoin>
+        <DigitalJoinOffset>0</DigitalJoinOffset>
+        <AnalogJoinOffset>0</AnalogJoinOffset>
+        <SerialJoinOffset>0</SerialJoinOffset>
+        <Hardkeys>
+            <NumHardkeys>0</NumHardkeys>
+        </Hardkeys>
+        <Backgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </Backgrounds>
+        <RotatedBackgrounds>
+            <DisplayBackgroundColor>false</DisplayBackgroundColor>
+            <BackgroundColor>0x0071bc</BackgroundColor>
+            <BackgroundAlpha>255</BackgroundAlpha>
+            <DynamicGraphicsSerial>0</DynamicGraphicsSerial>
+            <BackgroundAnalogJoin></BackgroundAnalogJoin>
+            <NumBackgrounds>0</NumBackgrounds>
+        </RotatedBackgrounds>
+    </Properties>
+</Page>
+
+</Pages>
+
+<LockOrientation>true</LockOrientation>
+<DefaultURL><![CDATA[]]></DefaultURL>
+<SafeMode>false</SafeMode>
+<DisplayJoins>false</DisplayJoins>
+<DataSources>
+   <DataSourceCount>0</DataSourceCount>
+   <DataSource>
+
+   </DataSource>
+</DataSources>
+<OverrideLoadingGraphic><False>False</False>
+</OverrideLoadingGraphic>
+</Properties>
+
+</Crestron>

@@ -1,0 +1,47 @@
+Object,Object Name,Join Type,Join Number
+Image_Object,Image Object_8,DigitalPressJoin,20
+Liquid_Gauge,Volume.Gauge,AnalogFeedbackJoin,26
+Tab_Button,Select Activity,SmartObject,25
+Tab_Button,Screen Control,SmartObject,26
+Liquid_Gauge,Lights.Gauge,AnalogFeedbackJoin,25
+Tab_Button,Lights Btns,SmartObject,27
+Tab_Button,Volume Btns,SmartObject,28
+Tab_Button,Volume Presets,SmartObject,29
+Simple_Button,Button_3,DigitalPressJoin,25
+SubpageRef,Subpage Reference_6,DigitalJoin,16
+SubpageRef,Subpage Reference_4,DigitalJoin,13
+SubpageRef,Subpage Reference_7,DigitalJoin,14
+SubpageRef,Subpage Reference_3,DigitalJoin,12
+SubpageRef,Subpage Reference_2,DigitalJoin,11
+SubpageRef,Subpage Reference_5,DigitalJoin,15
+SubpageRef,Subpage Reference,DigitalJoin,10
+Embedded_Video,Embedded Video_2,URLSerial,
+Curtain_Control,Curtain Control,AnalogFeedbackJoin,60
+Tab_Button,Shades Control,SmartObject,60
+Shade_Controller,Shade Controller,AnalogFeedbackJoin,60
+_DPad2,Doc Cam Nav btns,SmartObject,30
+Tab_Button,Doc Cam Zoom Btns,SmartObject,32
+Tab_Button,Doc Cam Preset Btns,SmartObject,35
+Tab_Button,Doc Cam Light Btns,SmartObject,34
+Tab_Button,Doc Cam Focus btns,SmartObject,33
+Tab_Button,Doc Cam Menu Btns,SmartObject,31
+_DPad2,Sat DPad,SmartObject,40
+Simple_Keypad,Sat Keypad,SmartObject,42
+Simple_Button,Button_4,DigitalPressJoin,42
+Simple_Button,Button_5,DigitalPressJoin,43
+Simple_Button,Button_6,DigitalPressJoin,44
+Simple_Button,Button_7,DigitalPressJoin,45
+Simple_Button,Button_8,DigitalPressJoin,40
+Simple_Button,Button_9,DigitalPressJoin,41
+Icon_List,Sat Presets,SmartObject,41
+Simple_Button,Button_18,DigitalPressJoin,22
+_DPad2,BluRay DPad,SmartObject,50
+Simple_Button,Button_2,DigitalPressJoin,52
+Simple_Button,Button_10,DigitalPressJoin,53
+Simple_Button,Button_11,DigitalPressJoin,54
+Simple_Button,Button_12,DigitalPressJoin,55
+Simple_Button,Button_13,DigitalPressJoin,50
+Simple_Button,Button_14,DigitalPressJoin,51
+Tab_Button,Blu Ray Transports 1,SmartObject,51
+Tab_Button,Tab Button Horizontal,SmartObject,52
+Liquid_Gauge,LiquidGaugeHorizontal,AnalogFeedbackJoin,20
